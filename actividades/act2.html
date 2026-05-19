@@ -8,6 +8,9 @@
 
     <meta name="author" content="Jorge Eduardo Trejo Aguilar">
 
+    <meta name="description"
+        content="Explicación de un programa en C que determina si una persona es mayor o menor de edad.">
+
     <title>Actividad HTML</title>
 </head>
 
@@ -21,6 +24,8 @@
         Este programa pregunta la edad de una persona
         y después dice si es mayor o menor de edad.
     </p>
+
+    <hr>
 
     <h2>Código en C</h2>
 
@@ -61,30 +66,43 @@
         }
     </code>
 
-    <h2>1. #include &lt;stdio.h&gt;</h2>
+    <hr>
+
+    <h2>Explicación línea por línea</h2>
+
+    <h3>1. #include &lt;stdio.h&gt;</h3>
 
     <p>
         Esta línea importa una biblioteca llamada
         stdio.h.
+    </p>
+
+    <p>
         Sirve para usar printf y scanf.
     </p>
 
-    <h2>2. int main()</h2>
+    <h3>2. int main()</h3>
 
     <p>
         Es la función principal del programa.
         Aquí empieza el código.
     </p>
 
-    <h2>3. int edad;</h2>
+    <h3>3. int edad;</h3>
 
     <p>
         Se crea una variable llamada edad.
+    </p>
+
+    <p>
         Una variable sirve para guardar datos.
+    </p>
+
+    <p>
         En este caso guardará un número entero.
     </p>
 
-    <h2>4. printf()</h2>
+    <h3>4. printf()</h3>
 
     <p>
         printf sirve para mostrar mensajes
@@ -92,31 +110,31 @@
     </p>
 
     <p>
-        En este caso pregunta:
+        Aquí pregunta:
         ¿Cuántos años tienes?
     </p>
 
-    <h2>5. scanf("%d", &edad);</h2>
+    <h3>5. scanf("%d", &edad);</h3>
 
     <p>
         scanf sirve para leer datos
-        que escribe el usuario.
+        escritos por el usuario.
     </p>
 
     <p>
-        El "%d" significa que espera
+        "%d" significa que espera
         un número entero.
     </p>
 
     <p>
-        El símbolo "&" ayuda a guardar
+        El símbolo & sirve para guardar
         el dato dentro de la variable edad.
     </p>
 
-    <h2>6. if (edad >= 18)</h2>
+    <h3>6. if (edad >= 18)</h3>
 
     <p>
-        if es una condición.
+        if es una condicional.
     </p>
 
     <p>
@@ -129,7 +147,7 @@
         "mayor o igual que".
     </p>
 
-    <h2>7. printf("Eres mayor de edad")</h2>
+    <h3>7. printf("Eres mayor de edad")</h3>
 
     <p>
         Si la condición se cumple,
@@ -137,7 +155,7 @@
         Eres mayor de edad.
     </p>
 
-    <h2>8. else</h2>
+    <h3>8. else</h3>
 
     <p>
         else significa "si no".
@@ -148,7 +166,7 @@
         del if no se cumple.
     </p>
 
-    <h2>9. printf("Eres menor de edad")</h2>
+    <h3>9. printf("Eres menor de edad")</h3>
 
     <p>
         Si la persona tiene menos
@@ -156,7 +174,7 @@
         Eres menor de edad.
     </p>
 
-    <h2>10. return 0;</h2>
+    <h3>10. return 0;</h3>
 
     <p>
         Significa que el programa
