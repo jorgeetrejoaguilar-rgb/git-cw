@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Jorge Eduardo Trejo Aguilar">
+
+    <title>Actividad HTML</title>
+</head>
+
+<body>
+
+    <h1>Explicación de un programa en C</h1>
+
+    <h2>¿Qué hace el programa?</h2>
+
+    <p>
+        Este programa pregunta la edad de una persona
+        y después dice si es mayor o menor de edad.
+    </p>
+
+    <h2>Código en C</h2>
+
+    <code>
+        #include &lt;stdio.h&gt;
+        <br><br>
+
+        int main() {
+        <br>
+
+        int edad;
+        <br><br>
+
+        printf("¿Cuántos años tienes?");
+        <br>
+
+        scanf("%d", &edad);
+        <br><br>
+
+        if (edad >= 18) {
+        <br>
+
+        printf("Eres mayor de edad.");
+        <br>
+
+        } else {
+        <br>
+
+        printf("Eres menor de edad.");
+        <br>
+
+        }
+        <br><br>
+
+        return 0;
+        <br>
+
+        }
+    </code>
+
+    <h2>1. #include &lt;stdio.h&gt;</h2>
+
+    <p>
+        Esta línea importa una biblioteca llamada
+        stdio.h.
+        Sirve para usar printf y scanf.
+    </p>
+
+    <h2>2. int main()</h2>
+
+    <p>
+        Es la función principal del programa.
+        Aquí empieza el código.
+    </p>
+
+    <h2>3. int edad;</h2>
+
+    <p>
+        Se crea una variable llamada edad.
+        Una variable sirve para guardar datos.
+        En este caso guardará un número entero.
+    </p>
+
+    <h2>4. printf()</h2>
+
+    <p>
+        printf sirve para mostrar mensajes
+        en pantalla.
+    </p>
+
+    <p>
+        En este caso pregunta:
+        ¿Cuántos años tienes?
+    </p>
+
+    <h2>5. scanf("%d", &edad);</h2>
+
+    <p>
+        scanf sirve para leer datos
+        que escribe el usuario.
+    </p>
+
+    <p>
+        El "%d" significa que espera
+        un número entero.
+    </p>
+
+    <p>
+        El símbolo "&" ayuda a guardar
+        el dato dentro de la variable edad.
+    </p>
+
+    <h2>6. if (edad >= 18)</h2>
+
+    <p>
+        if es una condición.
+    </p>
+
+    <p>
+        Revisa si la edad es mayor
+        o igual a 18.
+    </p>
+
+    <p>
+        El símbolo >= significa
+        "mayor o igual que".
+    </p>
+
+    <h2>7. printf("Eres mayor de edad")</h2>
+
+    <p>
+        Si la condición se cumple,
+        el programa imprime:
+        Eres mayor de edad.
+    </p>
+
+    <h2>8. else</h2>
+
+    <p>
+        else significa "si no".
+    </p>
+
+    <p>
+        Se usa cuando la condición
+        del if no se cumple.
+    </p>
+
+    <h2>9. printf("Eres menor de edad")</h2>
+
+    <p>
+        Si la persona tiene menos
+        de 18 años, muestra:
+        Eres menor de edad.
+    </p>
+
+    <h2>10. return 0;</h2>
+
+    <p>
+        Significa que el programa
+        terminó correctamente.
+    </p>
+
+</body>
+
+</html>

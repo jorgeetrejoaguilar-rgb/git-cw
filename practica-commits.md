@@ -59,13 +59,12 @@ Algo sobre mí: Mi comida favorita son las enchiladas verdes.
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
-
+| `git init` | Inicializa un repositorio Git vacío en la carpeta actual |
+| `git status` | Muestra el estado de los archivos: modificados, en staging o sin rastrear |
+| `git add .` | Agrega todos los archivos al área de staging |
+| `git commit -m "..."` | Guarda una fotografía del proyecto con el mensaje indicado |
+| `git log --oneline` | Muestra el historial de commits, uno por línea |
+| `git push` | Sube los commits locales al repositorio remoto en GitHub |
 ---
 
 ## Nivel 6 · Marca tu avance
@@ -73,10 +72,10 @@ Algo sobre mí: Mi comida favorita son las enchiladas verdes.
 **Qué hacer:** Cambia `[ ]` por `[x]` en cada punto que ya dominas.  
 **Commit:** `chore(practica): actualiza checklist de avance`
 
-- [ ] Hice `git init` sin ayuda
-- [ ] Entiendo para qué sirve el Staging Area
-- [ ] Escribí un mensaje de commit con formato Conventional Commits
-- [ ] Puedo ver el historial con `git log`
+- [ x] Hice `git init` sin ayuda
+- [ x] Entiendo para qué sirve el Staging Area
+- [ x] Escribí un mensaje de commit con formato Conventional Commits
+- [ x] Puedo ver el historial con `git log`
 - [ ] Completé todos los niveles de esta práctica
 
 ---
