@@ -3,4 +3,4 @@
  **Color Favorito**: Rojo y Morado
  **Apodo**: Giorgio
  **Cantante Favorito**: David Bowie
- 
+ **Hobby**: Divulgar ciencia
